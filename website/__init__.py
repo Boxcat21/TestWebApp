@@ -12,7 +12,7 @@ from flask import Flask
 def create_app():
     app = Flask(__name__)
     #TODO store secret key in a seperate file that is ignored but gitignore (so people cant just look at the key on)
-    app.config['SECRET KEY'] = 'ihaveascendedtoavehicle'
+    app.config['SECRET_KEY'] = 'ihaveascendedtoavehicle'
 
     #grabs blueprints
     from .views import viewsVar

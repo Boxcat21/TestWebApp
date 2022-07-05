@@ -1,0 +1,38 @@
+body {
+    background-color: #c5c6c7;
+}
+
+.navItem {
+    padding: 0px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 30px;
+    border: solid 2px !important;
+    border-color: #1f2833 !important;
+}
+
+.navItem a {
+    padding-bottom: 10px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    color: #c5c6c7 !important;
+    transition: 0.3s !important;
+}
+
+.navItem a:hover {
+    color: #0088a9 !important;
+}
+
+.pageTitles {
+    margin: 10px;
+    text-align: center;
+}
+
+.prompt {   
+    font-size: larger;
+}
+
+.in {
+    margin-bottom: 8px;
+}
